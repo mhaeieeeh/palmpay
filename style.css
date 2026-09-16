@@ -13,13 +13,30 @@ image {
     max-width: 100%;
 }
 
+.l1 {
+    position: fixed;
+    background: white;
+    width: 100%;
+    padding: 20px 400px;
+    
+}
+
+.l1 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    gap: 100px;
+    color: black;
+    padding: 0 10px;
+}
+
 .flex-container {
     background-color: #8B00FA;
     padding: 0 400px;
     display: flex;
-    /* border: 2px solid red; */
-    /* display: block; */
      gap: 100px;
+     padding-top: 150px;
 }
 
 .flex-items {
@@ -75,10 +92,13 @@ image {
 }
 
 .flex-container2 :first-child {
-    padding: 20px 200px;
+    width: 800px;
+}
+
+.flex-container2{
+   padding: 20px 520px;
     background-color: #6F06C0;
-    justify-content: center;
-    position: relative;
+    justify-content: center; 
 }
 
 .flex-container3 {
@@ -191,10 +211,26 @@ image {
     padding: 100px 400px;
     display: flex;
     gap: 20px;
+    flex-direction: row-reverse;
 }
 
+.flex-items5 h3 {
+     font-size: 50px;
+    font-weight: 700;
+    color: #490181;
+    width: 100%;
+    padding:  40px 0;
+}
+
+.flex-items5 img {
+    border-radius: 35px;
+
+}
+
+
+
 .flex-container6 {
-     padding: 100px 400px;
+     padding: 50px 400px;
      background-color: #F8F8FF;
 }
 
@@ -206,21 +242,225 @@ image {
 }
 
 .j1 {
-    margin: 20px 300px;
-     display: inline-block;
-    /* width: 50%; */
-     flex-direction: row;
+    display: inline-block; 
+    padding: 10px 30px;
 }
+
+
 
 .sj1 {
     font-size: 15px;
     font-weight: 700;
     color: #4D0683;
+    width: 50%;
 }
 
 .j3 {
+    display:flex;
+    margin: 0px 300px;
+    gap: 30px;
+    display: block;
+    border: 2px solid red;
+}
+.j1 :nth-child(2) {
+    padding-left: 0px ;
+    padding right :0px; ;
+}
+
+.j2 {
+    width: 50%;
+}
+
+.phd1 h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #490181;
+    text-align: center;
+    
+}
+
+.flex-items66 {
     display: flex;
-    gap: 20px;
-    margin: 10px 20px;
+    padding: 50px 0;
+}
+
+.phd1 p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 13px 0;
+    color: #490181;
+}
+
+.phd1 {
+    width: 33.3%;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+
+.line {
+    width: 2px;
+    height: 150px;
+    background-color: black;
+
+}
+
+.flex-container7 {
+    background-color: #E6C5FF;
+    padding: 50px 400px;
+    
+}
+
+.ph {
+    font-size: 40px;
+    font-weight: 600;
+    color: #4D0683;
+    text-align: center;
+    display: block;
+}
+
+.ph2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #4D0693;
+    text-align: center;
+    display: block;
+    padding: 30px 250px;
+}
+
+.ph3 {
+    height: 300px;
+    width: 400px;
+    background-color: #FFFFFF;
+    margin: 30px 320px;
+    border-radius: 60px;
+}
+
+.ph4 {
+    padding: 30px 50px;
+    
+}
+
+.ph5 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+
+.ph6 {
+    padding: 0px 50px;
+
+}
+
+.ph7 {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 50px;
+    justify-content: center;
+    text-align: justify;
+    display: block;
+}
+
+.ph8 {
+    display: flex;
+    margin: 30px 350px;
+    gap: 30px;
+}
+
+.ph9 {
+    background-color: #FDFBFE;
+    display: flex;
+    border: 2px solid red;
+    margin: 20px 400px;
+}
+
+.ph10 {
+    50%
+}
+
+.ph10 p {
+    font-size: 43px;
+    font-weight: 700;
+    padding: 100px 150px;
+    color: #4D0683;
+    
+}
+
+.ph10 :nth-child(2) {
+    margin: 0px 0px;
+    margin-left: 150px;
+    
+    
+}
+
+.ph10 :nth-child(3) {
+    margin: 0px 40px;
+    /* margin-right: 150px; */
+}
+
+.ph11 {
+   background-color: #7842D1;
+   position: relative;
+}
+
+.ph12 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    padding: 30px ;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 70%;
+    right: 30%;
+    transform:  translate(-50% -50%);
+}
+
+.ph13 {
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+}
+
+.ph11 img {
+    display: block;
+}
+
+.ph13 {
+    display: block;
+ position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 70%;
+    right: 30%;
+    transform:  translate(-50% -50%);
+}
+
+.ph14 {
+    background-color: #1E1E1E;
+    padding: 50px 400px;
+    display: flex;
+    gap: 70px;
+}
+
+.ph15 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 30px;
+}
+
+.ph15 :first-child {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.ph16 {
+    color: #FFFFFF;
 
 }
