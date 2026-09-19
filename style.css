@@ -23,7 +23,7 @@ image {
 
 .l1 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     align-items: center;
     gap: 100px;
@@ -117,7 +117,7 @@ image {
     font-size: 26px;
     font-weight: 300;
     color: #8F00FF;
-    padding: 0 200px;
+    padding: 20px 200px;
 }
 
 .t3 {
@@ -260,11 +260,11 @@ image {
     margin: 0px 300px;
     gap: 30px;
     display: block;
-    border: 2px solid red;
+    
 }
 .j1 :nth-child(2) {
     padding-left: 0px ;
-    padding right :0px; ;
+    paddin-right :0px; 
 }
 
 .j2 {
@@ -372,7 +372,6 @@ image {
 .ph9 {
     background-color: #FDFBFE;
     display: flex;
-    border: 2px solid red;
     margin: 20px 400px;
 }
 
@@ -424,10 +423,15 @@ image {
     font-weight: 900;
 }
 
+.ph11 {
+    background-image: url(images/palmpay/footer.png);
+    background-color: #8F00FF;
+}
+
 .ph11 img {
     display: block;
 }
-
+  
 .ph13 {
     display: block;
  position: absolute;
@@ -440,7 +444,7 @@ image {
 
 .ph14 {
     background-color: #1E1E1E;
-    padding: 50px 400px;
+    /* padding: 50px 400px; */
     display: flex;
     gap: 70px;
 }
@@ -463,4 +467,51 @@ image {
 .ph16 {
     color: #FFFFFF;
 
+}
+
+.l1 :nth-child(7) {
+    background-color: #8F00FF;
+    border-radius: 35px;
+    padding: 5px 10px;
+}
+
+.ph17 {
+    background-color: #1E1E1E;
+    padding: 0 400px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.ph18 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 30px 0;
+
+}
+
+.ph19 {
+    padding: 30px 0;
+    padding-left: 900px;
+}
+
+.ph19 a {
+    padding-right: 20px;
+}
+
+.ph19 img {
+    width: 25px;
+}
+
+.line2 {
+    border: 1px solid grey;
+    display: block;
+    width: 100%;
+}
+
+.ph20 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    width: 100%;
 }
